@@ -13,7 +13,7 @@ int main()
 	}
 	else if (pid == 0)
 	{
-		printf("chid exiting\n",pid);
+		printf("chid exiting\n");
 		exit(0);
 	}
 	else
