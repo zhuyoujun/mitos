@@ -10,7 +10,7 @@ echo "------update files------"
 git pull origin master
 
 ###add files
-echo "------add files------"
+echo "------add all changeing files------"
 git add -A
 
 ###commit
@@ -21,3 +21,31 @@ git commit -m " update"
 echo "------push to remote repository------"
 git push origin master
 echo "------end------"
+
+###############################################
+# 1.new machine
+#	> install
+#	> git config  --global user.name "GIT Admin"
+#	> git config  --global user.emal obugs.net@gmail.com
+#	> genernate key:
+#	  > cd ~/.ssh
+#	  > ssh-keygen -t rsa -C "your_email@example.com"
+#	  > cat id_rsa.pub
+#	> add key in your git account at website:settings->SSH keys->Add SSH key.
+# 2. git clone a project. 
+#	> git clone git@github.com:zhuyoujun/mitos.git
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+###############################################
